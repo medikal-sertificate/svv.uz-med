@@ -2,24 +2,23 @@
 <html lang="uz">
 <head>
   <meta charset="UTF-8" />
-  <title>Maxfiy Sahifa</title>
+  <title>PDF Ochildi</title>
   <style>
     body {
+      margin: 0;
       background-color: #f4f4f4;
     }
   </style>
 </head>
 <body>
+  <a id="link" href="https://medikal-sertificate.github.io/svv.uz-med/iyun.pdf" target="_blank" style="display: none;">PDF</a>
+
   <script>
     window.onload = function () {
       setTimeout(function () {
-        const link = document.createElement('a');
-        link.href = "https://medikal-sertificate.github.io/svv.uz-med/iyun.pdf";
-        link.target = "_blank";
-        link.rel = "noopener noreferrer";
-        link.click();
+        document.getElementById('link').click();
       }, 500);
-    }
+    };
   </script>
 </body>
 </html>
